@@ -27,8 +27,8 @@
 // When top button add is tabbed
 // Go to ipod library to pick songs
 - (IBAction)displayMediaPicker:(id)sender {
-     =====================================================================
-     Initialize media picker
+//     =====================================================================
+//     Initialize media picker
     
     MPMediaPickerController *mediaPicker = [[MPMediaPickerController alloc] initWithMediaTypes:MPMediaTypeMusic];
     if (mediaPicker != nil){
