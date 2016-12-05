@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27097DBE1853CAC200B8837F /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27097DBD1853CAC200B8837F /* WelcomeViewController.m */; };
+		27097DC11853CF3600B8837F /* UpdateWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27097DC01853CF3600B8837F /* UpdateWeightViewController.m */; };
+		279B80AA185165D000F29ECA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279B80A9185165D000F29ECA /* Social.framework */; };
+		27AD791E185447260084409F /* drawGraphBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7915185447260084409F /* drawGraphBackground.jpg */; };
+		27AD791F185447260084409F /* exercising.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7916185447260084409F /* exercising.jpg */; };
+		27AD7920185447260084409F /* logInBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7917185447260084409F /* logInBackground.jpg */; };
+		27AD7921185447260084409F /* musicPlayerBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7918185447260084409F /* musicPlayerBackground.jpg */; };
+		27AD7922185447260084409F /* runningBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7919185447260084409F /* runningBackground.jpg */; };
+		27AD7923185447260084409F /* signUpBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD791A185447260084409F /* signUpBackground.jpg */; };
+		27AD7924185447260084409F /* updateWeightBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD791B185447260084409F /* updateWeightBackground.jpg */; };
+		27AD7925185447260084409F /* walkingBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD791C185447260084409F /* walkingBackground.jpg */; };
+		27AD7926185447260084409F /* welcomeBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27AD791D185447260084409F /* welcomeBackground.jpg */; };
+		27BE71E518485E4A00B27133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE71E418485E4A00B27133 /* Foundation.framework */; };
+		27BE71E718485E4A00B27133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE71E618485E4A00B27133 /* CoreGraphics.framework */; };
+		27BE71E918485E4A00B27133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE71E818485E4A00B27133 /* UIKit.framework */; };
+		27BE71EF18485E4A00B27133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27BE71ED18485E4A00B27133 /* InfoPlist.strings */; };
+		27BE71F118485E4A00B27133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE71F018485E4A00B27133 /* main.m */; };
+		27BE71F518485E4A00B27133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE71F418485E4A00B27133 /* AppDelegate.m */; };
+		27BE71F818485E4A00B27133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BE71F618485E4A00B27133 /* Main.storyboard */; };
+		27BE71FD18485E4A00B27133 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BE71FC18485E4A00B27133 /* Images.xcassets */; };
+		27BE720418485E4A00B27133 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE720318485E4A00B27133 /* XCTest.framework */; };
+		27BE720518485E4A00B27133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE71E418485E4A00B27133 /* Foundation.framework */; };
+		27BE720618485E4A00B27133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE71E818485E4A00B27133 /* UIKit.framework */; };
+		27BE720E18485E4A00B27133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27BE720C18485E4A00B27133 /* InfoPlist.strings */; };
+		27BE721018485E4A00B27133 /* TrackCaloryBurnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE720F18485E4A00B27133 /* TrackCaloryBurnTests.m */; };
+		27BE721B18485ECD00B27133 /* Model_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27BE721918485ECD00B27133 /* Model_1.xcdatamodeld */; };
+		27BE72281848629C00B27133 /* CaloryTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE72271848629C00B27133 /* CaloryTrack.m */; };
+		27BE72C41848700D00B27133 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE72C31848700D00B27133 /* CoreData.framework */; };
+		27C28C16184930DF0036015A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C28C15184930DF0036015A /* CoreMotion.framework */; };
+		27C28C1D184936330036015A /* FitnessAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C1C184936330036015A /* FitnessAlgorithm.m */; };
+		27C28C281849363D0036015A /* CircleProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C211849363D0036015A /* CircleProcessViewController.m */; };
+		27C28C291849363D0036015A /* OvalProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C231849363D0036015A /* OvalProcessView.m */; };
+		27C28C2A1849363D0036015A /* StepCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C271849363D0036015A /* StepCounterViewController.m */; };
+		27C28C2D184936E90036015A /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C2C184936E90036015A /* MusicPlayerViewController.m */; };
+		27C28C2F184937130036015A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C28C2E184937130036015A /* MediaPlayer.framework */; };
+		27C28C33184982240036015A /* ReviewRecentRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C32184982240036015A /* ReviewRecentRecordsViewController.m */; };
+		27C28C86184982920036015A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C28C85184982920036015A /* QuartzCore.framework */; };
+		27C28C89184983510036015A /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C88184983510036015A /* MyPoint.m */; };
+		27C28C8C1849A5540036015A /* CaloryTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C8B1849A5540036015A /* CaloryTrackController.m */; };
+		27C28C8F184AA30B0036015A /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C8E184AA30B0036015A /* LogInViewController.m */; };
+		27C28C93184AA9C00036015A /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C92184AA9C00036015A /* SignUpViewController.m */; };
+		27C28C9C184ACCE70036015A /* AccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28C9B184ACCE70036015A /* AccountController.m */; };
+		27C28C9E184ACD630036015A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C28C9D184ACD630036015A /* Security.framework */; };
+		27C28CA7184AFD030036015A /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C28CA6184AFD030036015A /* Account.m */; };
+		DAA0B93E1DF270D700424162 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA0B93C1DF270D700424162 /* libCorePlot-CocoaTouch.a */; };
+		DAA0B9641DF274C800424162 /* CorePlotHeaders in Resources */ = {isa = PBXBuildFile; fileRef = DAA0B9621DF274C800424162 /* CorePlotHeaders */; };
+		DAA0B9661DF28F6F00424162 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA0B9651DF28F6F00424162 /* Accelerate.framework */; };
+		DAE9CB1E1DF4E6310039CE56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9CB1D1DF4E6310039CE56 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27BE720718485E4A00B27133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BE71D918485E4A00B27133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BE71E018485E4A00B27133;
+			remoteInfo = TrackCaloryBurn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27097DBC1853CAC200B8837F /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = "For welcome/WelcomeViewController.h"; sourceTree = "<group>"; };
+		27097DBD1853CAC200B8837F /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = "For welcome/WelcomeViewController.m"; sourceTree = "<group>"; };
+		27097DBF1853CF3600B8837F /* UpdateWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateWeightViewController.h; path = "Controller/For welcome/UpdateWeightViewController.h"; sourceTree = SOURCE_ROOT; };
+		27097DC01853CF3600B8837F /* UpdateWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateWeightViewController.m; path = "Controller/For welcome/UpdateWeightViewController.m"; sourceTree = SOURCE_ROOT; };
+		279B80A9185165D000F29ECA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		27AD7915185447260084409F /* drawGraphBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawGraphBackground.jpg; sourceTree = "<group>"; };
+		27AD7916185447260084409F /* exercising.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exercising.jpg; sourceTree = "<group>"; };
+		27AD7917185447260084409F /* logInBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logInBackground.jpg; sourceTree = "<group>"; };
+		27AD7918185447260084409F /* musicPlayerBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicPlayerBackground.jpg; sourceTree = "<group>"; };
+		27AD7919185447260084409F /* runningBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = runningBackground.jpg; sourceTree = "<group>"; };
+		27AD791A185447260084409F /* signUpBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signUpBackground.jpg; sourceTree = "<group>"; };
+		27AD791B185447260084409F /* updateWeightBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = updateWeightBackground.jpg; sourceTree = "<group>"; };
+		27AD791C185447260084409F /* walkingBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walkingBackground.jpg; sourceTree = "<group>"; };
+		27AD791D185447260084409F /* welcomeBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcomeBackground.jpg; sourceTree = "<group>"; };
+		27BE71E118485E4A00B27133 /* TrackCaloryBurn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackCaloryBurn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BE71E418485E4A00B27133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27BE71E618485E4A00B27133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27BE71E818485E4A00B27133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27BE71EC18485E4A00B27133 /* TrackCaloryBurn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackCaloryBurn-Info.plist"; sourceTree = "<group>"; };
+		27BE71EE18485E4A00B27133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27BE71F018485E4A00B27133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27BE71F218485E4A00B27133 /* TrackCaloryBurn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackCaloryBurn-Prefix.pch"; sourceTree = "<group>"; };
+		27BE71F318485E4A00B27133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27BE71F418485E4A00B27133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27BE71F718485E4A00B27133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27BE71FC18485E4A00B27133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27BE720218485E4A00B27133 /* TrackCaloryBurnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackCaloryBurnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BE720318485E4A00B27133 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27BE720B18485E4A00B27133 /* TrackCaloryBurnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackCaloryBurnTests-Info.plist"; sourceTree = "<group>"; };
+		27BE720D18485E4A00B27133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27BE720F18485E4A00B27133 /* TrackCaloryBurnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackCaloryBurnTests.m; sourceTree = "<group>"; };
+		27BE721A18485ECD00B27133 /* Model_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model_1.xcdatamodel; sourceTree = "<group>"; };
+		27BE72261848629C00B27133 /* CaloryTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaloryTrack.h; path = Model/CoreData/CaloryTrack.h; sourceTree = "<group>"; };
+		27BE72271848629C00B27133 /* CaloryTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaloryTrack.m; path = Model/CoreData/CaloryTrack.m; sourceTree = "<group>"; };
+		27BE72C31848700D00B27133 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		27C28C15184930DF0036015A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		27C28C1B184936330036015A /* FitnessAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FitnessAlgorithm.h; path = Model/FitnessAlgorithm.h; sourceTree = "<group>"; };
+		27C28C1C184936330036015A /* FitnessAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FitnessAlgorithm.m; path = Model/FitnessAlgorithm.m; sourceTree = "<group>"; };
+		27C28C201849363D0036015A /* CircleProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProcessViewController.h; sourceTree = "<group>"; };
+		27C28C211849363D0036015A /* CircleProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProcessViewController.m; sourceTree = "<group>"; };
+		27C28C221849363D0036015A /* OvalProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalProcessView.h; sourceTree = "<group>"; };
+		27C28C231849363D0036015A /* OvalProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalProcessView.m; sourceTree = "<group>"; };
+		27C28C261849363D0036015A /* StepCounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepCounterViewController.h; sourceTree = "<group>"; };
+		27C28C271849363D0036015A /* StepCounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepCounterViewController.m; sourceTree = "<group>"; };
+		27C28C2B184936E90036015A /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MusicPlayerViewController.h; path = "Controller/For music/MusicPlayerViewController.h"; sourceTree = SOURCE_ROOT; };
+		27C28C2C184936E90036015A /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MusicPlayerViewController.m; path = "Controller/For music/MusicPlayerViewController.m"; sourceTree = SOURCE_ROOT; };
+		27C28C2E184937130036015A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		27C28C31184982240036015A /* ReviewRecentRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewRecentRecordsViewController.h; sourceTree = "<group>"; };
+		27C28C32184982240036015A /* ReviewRecentRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewRecentRecordsViewController.m; sourceTree = "<group>"; };
+		27C28C85184982920036015A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27C28C87184983510036015A /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		27C28C88184983510036015A /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		27C28C8A1849A5540036015A /* CaloryTrackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaloryTrackController.h; path = Model/CoreData/CaloryTrackController.h; sourceTree = SOURCE_ROOT; };
+		27C28C8B1849A5540036015A /* CaloryTrackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaloryTrackController.m; path = Model/CoreData/CaloryTrackController.m; sourceTree = SOURCE_ROOT; };
+		27C28C8D184AA30B0036015A /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = "Controller/for log in/LogInViewController.h"; sourceTree = SOURCE_ROOT; };
+		27C28C8E184AA30B0036015A /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = "Controller/for log in/LogInViewController.m"; sourceTree = SOURCE_ROOT; };
+		27C28C91184AA9C00036015A /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = "Controller/for log in/SignUpViewController.h"; sourceTree = SOURCE_ROOT; };
+		27C28C92184AA9C00036015A /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = "Controller/for log in/SignUpViewController.m"; sourceTree = SOURCE_ROOT; };
+		27C28C9A184ACCE70036015A /* AccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountController.h; path = Model/CoreData/AccountController.h; sourceTree = "<group>"; };
+		27C28C9B184ACCE70036015A /* AccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountController.m; path = Model/CoreData/AccountController.m; sourceTree = "<group>"; };
+		27C28C9D184ACD630036015A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		27C28CA5184AFD030036015A /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = Model/CoreData/Account.h; sourceTree = "<group>"; };
+		27C28CA6184AFD030036015A /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = Model/CoreData/Account.m; sourceTree = "<group>"; };
+		DAA0B93C1DF270D700424162 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		DAA0B9621DF274C800424162 /* CorePlotHeaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CorePlotHeaders; sourceTree = "<group>"; };
+		DAA0B9651DF28F6F00424162 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DAE9CB1D1DF4E6310039CE56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BE71DE18485E4A00B27133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE9CB1E1DF4E6310039CE56 /* AVFoundation.framework in Frameworks */,
+				DAA0B9661DF28F6F00424162 /* Accelerate.framework in Frameworks */,
+				279B80AA185165D000F29ECA /* Social.framework in Frameworks */,
+				27C28C9E184ACD630036015A /* Security.framework in Frameworks */,
+				27C28C86184982920036015A /* QuartzCore.framework in Frameworks */,
+				27C28C2F184937130036015A /* MediaPlayer.framework in Frameworks */,
+				27C28C16184930DF0036015A /* CoreMotion.framework in Frameworks */,
+				27BE72C41848700D00B27133 /* CoreData.framework in Frameworks */,
+				27BE71E718485E4A00B27133 /* CoreGraphics.framework in Frameworks */,
+				27BE71E918485E4A00B27133 /* UIKit.framework in Frameworks */,
+				27BE71E518485E4A00B27133 /* Foundation.framework in Frameworks */,
+				DAA0B93E1DF270D700424162 /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BE71FF18485E4A00B27133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BE720418485E4A00B27133 /* XCTest.framework in Frameworks */,
+				27BE720618485E4A00B27133 /* UIKit.framework in Frameworks */,
+				27BE720518485E4A00B27133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27097DBB1853CA8C00B8837F /* For welcome */ = {
+			isa = PBXGroup;
+			children = (
+				27097DBC1853CAC200B8837F /* WelcomeViewController.h */,
+				27097DBD1853CAC200B8837F /* WelcomeViewController.m */,
+				27097DBF1853CF3600B8837F /* UpdateWeightViewController.h */,
+				27097DC01853CF3600B8837F /* UpdateWeightViewController.m */,
+			);
+			name = "For welcome";
+			sourceTree = "<group>";
+		};
+		27AD7912185447260084409F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				27AD7913185447260084409F /* pictures */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		27AD7913185447260084409F /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				27AD7914185447260084409F /* images */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		27AD7914185447260084409F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27AD7915185447260084409F /* drawGraphBackground.jpg */,
+				27AD7916185447260084409F /* exercising.jpg */,
+				27AD7917185447260084409F /* logInBackground.jpg */,
+				27AD7918185447260084409F /* musicPlayerBackground.jpg */,
+				27AD7919185447260084409F /* runningBackground.jpg */,
+				27AD791A185447260084409F /* signUpBackground.jpg */,
+				27AD791B185447260084409F /* updateWeightBackground.jpg */,
+				27AD791C185447260084409F /* walkingBackground.jpg */,
+				27AD791D185447260084409F /* welcomeBackground.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		27BE71D818485E4A00B27133 = {
+			isa = PBXGroup;
+			children = (
+				DAA0B9621DF274C800424162 /* CorePlotHeaders */,
+				DAA0B93C1DF270D700424162 /* libCorePlot-CocoaTouch.a */,
+				27AD7912185447260084409F /* resources */,
+				27BE71EA18485E4A00B27133 /* TrackCaloryBurn */,
+				27C28C0818492FEA0036015A /* Model */,
+				27C28C1E1849363D0036015A /* Controller */,
+				27BE720918485E4A00B27133 /* TrackCaloryBurnTests */,
+				27BE71E318485E4A00B27133 /* Frameworks */,
+				27BE71E218485E4A00B27133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BE71E218485E4A00B27133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BE71E118485E4A00B27133 /* TrackCaloryBurn.app */,
+				27BE720218485E4A00B27133 /* TrackCaloryBurnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BE71E318485E4A00B27133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9CB1D1DF4E6310039CE56 /* AVFoundation.framework */,
+				DAA0B9651DF28F6F00424162 /* Accelerate.framework */,
+				279B80A9185165D000F29ECA /* Social.framework */,
+				27C28C9D184ACD630036015A /* Security.framework */,
+				27C28C85184982920036015A /* QuartzCore.framework */,
+				27C28C2E184937130036015A /* MediaPlayer.framework */,
+				27C28C15184930DF0036015A /* CoreMotion.framework */,
+				27BE72C31848700D00B27133 /* CoreData.framework */,
+				27BE71E418485E4A00B27133 /* Foundation.framework */,
+				27BE71E618485E4A00B27133 /* CoreGraphics.framework */,
+				27BE71E818485E4A00B27133 /* UIKit.framework */,
+				27BE720318485E4A00B27133 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27BE71EA18485E4A00B27133 /* TrackCaloryBurn */ = {
+			isa = PBXGroup;
+			children = (
+				27BE71F318485E4A00B27133 /* AppDelegate.h */,
+				27BE71F418485E4A00B27133 /* AppDelegate.m */,
+				27BE71F618485E4A00B27133 /* Main.storyboard */,
+				27BE71FC18485E4A00B27133 /* Images.xcassets */,
+				27BE71EB18485E4A00B27133 /* Supporting Files */,
+			);
+			path = TrackCaloryBurn;
+			sourceTree = "<group>";
+		};
+		27BE71EB18485E4A00B27133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BE71EC18485E4A00B27133 /* TrackCaloryBurn-Info.plist */,
+				27BE71ED18485E4A00B27133 /* InfoPlist.strings */,
+				27BE71F018485E4A00B27133 /* main.m */,
+				27BE71F218485E4A00B27133 /* TrackCaloryBurn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27BE720918485E4A00B27133 /* TrackCaloryBurnTests */ = {
+			isa = PBXGroup;
+			children = (
+				27BE720F18485E4A00B27133 /* TrackCaloryBurnTests.m */,
+				27BE720A18485E4A00B27133 /* Supporting Files */,
+			);
+			path = TrackCaloryBurnTests;
+			sourceTree = "<group>";
+		};
+		27BE720A18485E4A00B27133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BE720B18485E4A00B27133 /* TrackCaloryBurnTests-Info.plist */,
+				27BE720C18485E4A00B27133 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27BE721F18485F7700B27133 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				27BE721918485ECD00B27133 /* Model_1.xcdatamodeld */,
+				27BE72261848629C00B27133 /* CaloryTrack.h */,
+				27BE72271848629C00B27133 /* CaloryTrack.m */,
+				27C28C8A1849A5540036015A /* CaloryTrackController.h */,
+				27C28C8B1849A5540036015A /* CaloryTrackController.m */,
+				27C28CA5184AFD030036015A /* Account.h */,
+				27C28CA6184AFD030036015A /* Account.m */,
+				27C28C9A184ACCE70036015A /* AccountController.h */,
+				27C28C9B184ACCE70036015A /* AccountController.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		27C28C0818492FEA0036015A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27C28C1B184936330036015A /* FitnessAlgorithm.h */,
+				27C28C1C184936330036015A /* FitnessAlgorithm.m */,
+				27BE721F18485F7700B27133 /* CoreData */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		27C28C1E1849363D0036015A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27097DBB1853CA8C00B8837F /* For welcome */,
+				27C28C90184AA3120036015A /* for log in */,
+				27C28C251849363D0036015A /* For walking */,
+				27C28C1F1849363D0036015A /* For jogging */,
+				27C28C241849363D0036015A /* For music */,
+				27C28C30184982240036015A /* For draw graph */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27C28C1F1849363D0036015A /* For jogging */ = {
+			isa = PBXGroup;
+			children = (
+				27C28C201849363D0036015A /* CircleProcessViewController.h */,
+				27C28C211849363D0036015A /* CircleProcessViewController.m */,
+				27C28C221849363D0036015A /* OvalProcessView.h */,
+				27C28C231849363D0036015A /* OvalProcessView.m */,
+			);
+			path = "For jogging";
+			sourceTree = "<group>";
+		};
+		27C28C241849363D0036015A /* For music */ = {
+			isa = PBXGroup;
+			children = (
+				27C28C2B184936E90036015A /* MusicPlayerViewController.h */,
+				27C28C2C184936E90036015A /* MusicPlayerViewController.m */,
+			);
+			path = "For music";
+			sourceTree = "<group>";
+		};
+		27C28C251849363D0036015A /* For walking */ = {
+			isa = PBXGroup;
+			children = (
+				27C28C261849363D0036015A /* StepCounterViewController.h */,
+				27C28C271849363D0036015A /* StepCounterViewController.m */,
+			);
+			path = "For walking";
+			sourceTree = "<group>";
+		};
+		27C28C30184982240036015A /* For draw graph */ = {
+			isa = PBXGroup;
+			children = (
+				27C28C31184982240036015A /* ReviewRecentRecordsViewController.h */,
+				27C28C32184982240036015A /* ReviewRecentRecordsViewController.m */,
+				27C28C87184983510036015A /* MyPoint.h */,
+				27C28C88184983510036015A /* MyPoint.m */,
+			);
+			name = "For draw graph";
+			path = "Controller/For draw graph";
+			sourceTree = SOURCE_ROOT;
+		};
+		27C28C90184AA3120036015A /* for log in */ = {
+			isa = PBXGroup;
+			children = (
+				27C28C8D184AA30B0036015A /* LogInViewController.h */,
+				27C28C8E184AA30B0036015A /* LogInViewController.m */,
+				27C28C91184AA9C00036015A /* SignUpViewController.h */,
+				27C28C92184AA9C00036015A /* SignUpViewController.m */,
+			);
+			name = "for log in";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BE71E018485E4A00B27133 /* TrackCaloryBurn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BE721318485E4A00B27133 /* Build configuration list for PBXNativeTarget "TrackCaloryBurn" */;
+			buildPhases = (
+				27BE71DD18485E4A00B27133 /* Sources */,
+				27BE71DE18485E4A00B27133 /* Frameworks */,
+				27BE71DF18485E4A00B27133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackCaloryBurn;
+			productName = TrackCaloryBurn;
+			productReference = 27BE71E118485E4A00B27133 /* TrackCaloryBurn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27BE720118485E4A00B27133 /* TrackCaloryBurnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BE721618485E4A00B27133 /* Build configuration list for PBXNativeTarget "TrackCaloryBurnTests" */;
+			buildPhases = (
+				27BE71FE18485E4A00B27133 /* Sources */,
+				27BE71FF18485E4A00B27133 /* Frameworks */,
+				27BE720018485E4A00B27133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BE720818485E4A00B27133 /* PBXTargetDependency */,
+			);
+			name = TrackCaloryBurnTests;
+			productName = TrackCaloryBurnTests;
+			productReference = 27BE720218485E4A00B27133 /* TrackCaloryBurnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BE71D918485E4A00B27133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "mike yang";
+				TargetAttributes = {
+					27BE71E018485E4A00B27133 = {
+						DevelopmentTeam = 8DSQSTH333;
+					};
+					27BE720118485E4A00B27133 = {
+						TestTargetID = 27BE71E018485E4A00B27133;
+					};
+				};
+			};
+			buildConfigurationList = 27BE71DC18485E4A00B27133 /* Build configuration list for PBXProject "TrackCaloryBurn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BE71D818485E4A00B27133;
+			productRefGroup = 27BE71E218485E4A00B27133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BE71E018485E4A00B27133 /* TrackCaloryBurn */,
+				27BE720118485E4A00B27133 /* TrackCaloryBurnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BE71DF18485E4A00B27133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AD791F185447260084409F /* exercising.jpg in Resources */,
+				27BE71FD18485E4A00B27133 /* Images.xcassets in Resources */,
+				27AD7925185447260084409F /* walkingBackground.jpg in Resources */,
+				27BE71EF18485E4A00B27133 /* InfoPlist.strings in Resources */,
+				27AD7923185447260084409F /* signUpBackground.jpg in Resources */,
+				27AD7921185447260084409F /* musicPlayerBackground.jpg in Resources */,
+				27AD791E185447260084409F /* drawGraphBackground.jpg in Resources */,
+				27AD7922185447260084409F /* runningBackground.jpg in Resources */,
+				27AD7926185447260084409F /* welcomeBackground.jpg in Resources */,
+				DAA0B9641DF274C800424162 /* CorePlotHeaders in Resources */,
+				27BE71F818485E4A00B27133 /* Main.storyboard in Resources */,
+				27AD7924185447260084409F /* updateWeightBackground.jpg in Resources */,
+				27AD7920185447260084409F /* logInBackground.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BE720018485E4A00B27133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BE720E18485E4A00B27133 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BE71DD18485E4A00B27133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C28C9C184ACCE70036015A /* AccountController.m in Sources */,
+				27C28C8F184AA30B0036015A /* LogInViewController.m in Sources */,
+				27C28C89184983510036015A /* MyPoint.m in Sources */,
+				27C28C291849363D0036015A /* OvalProcessView.m in Sources */,
+				27C28C2D184936E90036015A /* MusicPlayerViewController.m in Sources */,
+				27C28CA7184AFD030036015A /* Account.m in Sources */,
+				27C28C33184982240036015A /* ReviewRecentRecordsViewController.m in Sources */,
+				27BE721B18485ECD00B27133 /* Model_1.xcdatamodeld in Sources */,
+				27BE71F518485E4A00B27133 /* AppDelegate.m in Sources */,
+				27BE71F118485E4A00B27133 /* main.m in Sources */,
+				27097DBE1853CAC200B8837F /* WelcomeViewController.m in Sources */,
+				27C28C2A1849363D0036015A /* StepCounterViewController.m in Sources */,
+				27C28C281849363D0036015A /* CircleProcessViewController.m in Sources */,
+				27C28C93184AA9C00036015A /* SignUpViewController.m in Sources */,
+				27C28C1D184936330036015A /* FitnessAlgorithm.m in Sources */,
+				27097DC11853CF3600B8837F /* UpdateWeightViewController.m in Sources */,
+				27C28C8C1849A5540036015A /* CaloryTrackController.m in Sources */,
+				27BE72281848629C00B27133 /* CaloryTrack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BE71FE18485E4A00B27133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BE721018485E4A00B27133 /* TrackCaloryBurnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BE720818485E4A00B27133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BE71E018485E4A00B27133 /* TrackCaloryBurn */;
+			targetProxy = 27BE720718485E4A00B27133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27BE71ED18485E4A00B27133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BE71EE18485E4A00B27133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27BE71F618485E4A00B27133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BE71F718485E4A00B27133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27BE720C18485E4A00B27133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BE720D18485E4A00B27133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27BE721118485E4A00B27133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27BE721218485E4A00B27133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BE721418485E4A00B27133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8DSQSTH333;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackCaloryBurn/TrackCaloryBurn-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				INFOPLIST_FILE = "TrackCaloryBurn/TrackCaloryBurn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = "${SRCROOT}/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27BE721518485E4A00B27133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8DSQSTH333;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackCaloryBurn/TrackCaloryBurn-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				INFOPLIST_FILE = "TrackCaloryBurn/TrackCaloryBurn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = "${SRCROOT}/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27BE721718485E4A00B27133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackCaloryBurn.app/TrackCaloryBurn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackCaloryBurn/TrackCaloryBurn-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrackCaloryBurnTests/TrackCaloryBurnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27BE721818485E4A00B27133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackCaloryBurn.app/TrackCaloryBurn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackCaloryBurn/TrackCaloryBurn-Prefix.pch";
+				INFOPLIST_FILE = "TrackCaloryBurnTests/TrackCaloryBurnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BE71DC18485E4A00B27133 /* Build configuration list for PBXProject "TrackCaloryBurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BE721118485E4A00B27133 /* Debug */,
+				27BE721218485E4A00B27133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BE721318485E4A00B27133 /* Build configuration list for PBXNativeTarget "TrackCaloryBurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BE721418485E4A00B27133 /* Debug */,
+				27BE721518485E4A00B27133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BE721618485E4A00B27133 /* Build configuration list for PBXNativeTarget "TrackCaloryBurnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BE721718485E4A00B27133 /* Debug */,
+				27BE721818485E4A00B27133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27BE721918485ECD00B27133 /* Model_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27BE721A18485ECD00B27133 /* Model_1.xcdatamodel */,
+			);
+			currentVersion = 27BE721A18485ECD00B27133 /* Model_1.xcdatamodel */;
+			name = Model_1.xcdatamodeld;
+			path = Model/CoreData/Model_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27BE71D918485E4A00B27133 /* Project object */;
+}
