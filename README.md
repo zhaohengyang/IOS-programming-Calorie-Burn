@@ -7,5 +7,6 @@ Burn Calorie which is app design for ios system. Major functions include a foot 
 
 ![result png](./readme_img/storyboard.jpg)
 
+![alt-text-1](step.jpg "step") ![alt-text-2](run.jpg "run")
 
 
