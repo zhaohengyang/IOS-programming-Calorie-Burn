@@ -27,38 +27,38 @@
 // When top button add is tabbed
 // Go to ipod library to pick songs
 - (IBAction)displayMediaPicker:(id)sender {
-    // =====================================================================
-    // Initialize media picker
+     =====================================================================
+     Initialize media picker
     
-//    MPMediaPickerController *mediaPicker = [[MPMediaPickerController alloc] initWithMediaTypes:MPMediaTypeMusic];
-//    if (mediaPicker != nil){
-//
-//         mediaPicker.prompt = @"Choose songs";
-//         mediaPicker.allowsPickingMultipleItems = YES;
-//         mediaPicker.delegate = self;
-//
-//        // =====================================================================
-//        // Goto media picker view
-//        [self presentViewController:mediaPicker animated:YES completion:NULL];
-//    }
-//    else {
-//        NSLog(@"Could not instantiate a media picker.");
-//    }
-    
-    
-    
-    MPMediaPickerController *picker = [[MPMediaPickerController alloc]     initWithMediaTypes:MPMediaTypeAnyAudio];
-    
-    [picker setDelegate:self];
-    [picker setAllowsPickingMultipleItems:YES];
-    [picker setPrompt:NSLocalizedString(@"Add songs to play","Prompt in media item picker")];
-    
+    MPMediaPickerController *mediaPicker = [[MPMediaPickerController alloc] initWithMediaTypes:MPMediaTypeMusic];
+    if (mediaPicker != nil){
 
-    [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Sorry!",@"Error title")
-                                    message:NSLocalizedString(@"This function is not avaiable for IOS10+SDK",@"Error message when MPMediaPickerController fails to load")
-                                   delegate:nil
-                          cancelButtonTitle:@"OK"
-                          otherButtonTitles:nil] show];
+         mediaPicker.prompt = @"Choose songs";
+         mediaPicker.allowsPickingMultipleItems = YES;
+         mediaPicker.delegate = self;
+
+        // =====================================================================
+        // Goto media picker view
+        [self presentViewController:mediaPicker animated:YES completion:NULL];
+    }
+    else {
+        NSLog(@"Could not instantiate a media picker.");
+    }
+    
+    
+    
+//    MPMediaPickerController *picker = [[MPMediaPickerController alloc]     initWithMediaTypes:MPMediaTypeAnyAudio];
+//    
+//    [picker setDelegate:self];
+//    [picker setAllowsPickingMultipleItems:YES];
+//    [picker setPrompt:NSLocalizedString(@"Add songs to play","Prompt in media item picker")];
+//    
+//
+//    [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Sorry!",@"Error title")
+//                                    message:NSLocalizedString(@"This function is not avaiable for IOS10+SDK",@"Error message when MPMediaPickerController fails to load")
+//                                   delegate:nil
+//                          cancelButtonTitle:@"OK"
+//                          otherButtonTitles:nil] show];
     
     
 }
