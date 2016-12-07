@@ -9,6 +9,6 @@ The main advantage of the App is to avoid using GPS usage which eats battery fas
 
 ![storyboard](./readme_img/storyboard.jpg)
 
-<img src="./readme_img/step.jpg" width="425"/> <img src="./readme_img/run.jpg" width="425"/> 
+<img src="./readme_img/step.jpg" width="300"/> <img src="./readme_img/run.jpg" width="300"/> <img src="./readme_img/graph.jpg" width="300"/> 
 
 
